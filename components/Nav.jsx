@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Nav = () => {
     return (
-        <nav className='flex-between w-full mb-16 pt-3 sticky top-0'>
+        <nav className='flex-between w-full mb-16 py-1 sticky top-0 bg-white border-b-2 border-x-2 px-3 rounded-b-xl'>
             <Link href="/" className='flex gap-2 flex-center'>
                 <Image src="/tailwind.svg"
                     alt="Website Logo"
