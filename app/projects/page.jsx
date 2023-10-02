@@ -5,16 +5,17 @@ import Link from 'next/link';
 const page = () => {
     return (
         <section className='w-full flex-center flex-col'>
-            <h1 className='head_text text-center mb-4'>Projects</h1>
+            <h1 className='head_text text-center mb-4'>My Projects</h1>
+            <h2 className='text-center mb-4'>View some of my projects.</h2>
 
 
-            <Link href="/projects/aggiequest" className="flex flex-col items-center bg-white border border-black rounded-lg m-4
+            <Link href="/projects/aggiequest" className="flex flex-col items-center bg-white border-1 border-black rounded-lg m-4
             shadow md:flex-row md:max-w-xl hover:bg-gray-100">
-                <Image className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                <Image className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-36 md:rounded-none md:rounded-l-lg"
                     src="/images/AQ_map.jpg"
-                    width={50}
-                    height={50}
-                    alt="Aggie Quest Image 1"
+                    width={20}
+                    height={20}
+                    alt="Aggie Quest"
                 />
                 <div className="flex flex-col justify-between p-8 leading-normal">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">AggieQuest</h5>
@@ -22,33 +23,6 @@ const page = () => {
                 </div>
             </Link>
 
-            <Link href="/projects/aggiequest" className="flex flex-col items-center bg-white border border-black rounded-lg m-4
-            shadow md:flex-row md:max-w-xl hover:bg-gray-100">
-                <Image className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                    src="/images/AQ_map.jpg"
-                    width={50}
-                    height={50}
-                    alt="Aggie Quest Image 1"
-                />
-                <div className="flex flex-col justify-between p-8 leading-normal">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">AggieQuest</h5>
-                    <p className="mb-3 font-normal text-gray-700">A scavenger-based mobile game created with Flutter to help college students with stress and encourage campus involvement.</p>
-                </div>
-            </Link>
-
-            <Link href="/projects/aggiequest" className="flex flex-col items-center bg-white border border-black rounded-lg m-4
-            shadow md:flex-row md:max-w-xl hover:bg-gray-100">
-                <Image className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                    src="/images/AQ_map.jpg"
-                    width={50}
-                    height={50}
-                    alt="Aggie Quest Image 1"
-                />
-                <div className="flex flex-col justify-between p-8 leading-normal">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">AggieQuest</h5>
-                    <p className="mb-3 font-normal text-gray-700">A scavenger-based mobile game created with Flutter to help college students with stress and encourage campus involvement.</p>
-                </div>
-            </Link>
 
             {/* <div className="mt-4 border-2 rounded-xl p-10 bg-sky-100">
 
