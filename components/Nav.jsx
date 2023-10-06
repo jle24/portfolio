@@ -10,13 +10,8 @@ const Nav = () => {
     return (
         <nav className='flex-between w-full mb-16 py-1 sticky top-0 shadow-xl bg-blue-600 border-b-2 border-x-2 border-blue-600 px-3 rounded-b-xl'>
             <div className='flex gap-2 items-center'>
-                <Link href="/" className=''>
-                    <Image src="/tailwind.svg"
-                        alt="Website Logo"
-                        width={50}
-                        height={50}
-                        className='object-contain'
-                    />
+                <Link href="/" className='text-white p-3 font-bold text-xl'>
+                    Jonathan Le
                 </Link>
             </div>
 
